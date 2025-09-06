@@ -1,7 +1,7 @@
 @Library('my-shared-lib') _
 pipeline {
     agent {
-        label 'docker-node'
+        label 'docker'
     }
 
     environment {
