@@ -13,7 +13,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'master',
-                    url: 'https://github.com/polaristechverse/myrepo.git',
+                    url: 'https://github.com/polaristechverse/javarepo.git',
                     credentialsId: 'github-creds'
             }
         }
